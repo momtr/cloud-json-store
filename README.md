@@ -21,7 +21,7 @@ Setup a firebase app and download the credentials file and place it in `firebase
 - name - of the JSON doc
 - key (length: 36) - in response object of request when creating the JSON doc (POST /api/v1/data)
 
-## POST /api/v1/data
+### POST /api/v1/data
 - name - of the JSON doc to create
 - data - valid JSON string (e.g. JSON.stringify of object)
 key of the doc is in the response object
